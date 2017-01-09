@@ -87,15 +87,12 @@
       if(!obj[key]){
         obj[key] = 0;
       }
-   
       ++obj[key];
       return obj;
 
     }
-
     const transportation = data.reduce(getAmount, {});
 
-    console.log("car instance: ", transportation);
   </script>
 </body>
 </html>
